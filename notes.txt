@@ -19,3 +19,7 @@ Step by step:
 
 	-- adatbázis:	nedb
 		-- npm install --save nedb
+		
+	-- react:
+		-- npm install -g create-react-app
+		-- create-react-app appneve
