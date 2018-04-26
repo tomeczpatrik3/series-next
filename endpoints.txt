@@ -1,0 +1,35 @@
+POST /login
+rq: {
+  name: string
+}
+rs: 200 / 401
+
+POST /my-series
+rq : {
+  id: string
+}
+rs: 200 / 404
+
+DELETE /my-series/:id
+rs: 200
+
+GET /my-series
+rs: [{
+  id: string,
+  title: string,
+  nextEp: Date,
+}]
+
+GET /my-series/:id
+rs: {
+  id: string,
+  title: string,
+  nextEp: Date,
+  ...
+}
+
+GET /series/:contains
+rs: [{
+  id: string,
+  title: string,
+}]

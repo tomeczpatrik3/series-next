@@ -1,0 +1,21 @@
+Step by step:
+
+	-- npm init -y
+	-- git init
+		--> .gitignore //Azon mapp�k amit nem szeretn�k verzi�kezelni pl.: node_modules
+		
+	mj: require('./src'); //Megegyezik: require('./src/index.js');
+	
+	-- nodemon:	Automatikus restart
+		-- npm install --save-dev nodemon 
+		-- nodemon main.js package.json-ben a starthozű
+
+	-- api: https://www.tvmaze.com/api
+
+	-- axios: http requestekhez
+		-- npm install --save axios
+
+	-- get/post: https://www.hurl.it/
+
+	-- adatbázis:	nedb
+		-- npm install --save nedb
